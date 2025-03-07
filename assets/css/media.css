@@ -1,0 +1,546 @@
+/* 0-575px extra-small:1rem=8px */
+
+@media screen and (max-width: 575px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    max-width: 100%;
+  }
+
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.67%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.32%;
+  }
+  .col-5 {
+    width: 41.67%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.67%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.67%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .mision {
+    padding-left: 0;
+  }
+  .vision {
+    padding: 0;
+  }
+  .work {
+    padding-right: 0;
+  }
+  .founder {
+    padding-right: 0;
+  }
+  .row-package {
+    justify-content: space-between;
+    row-gap: 4rem;
+    text-align: center;
+  }
+  .sub-forem {
+    flex-direction: column;
+    border-radius: 0.7rem;
+  }
+  .box {
+    flex-direction: column;
+    border-radius: 0.7rem;
+    width: 100%;
+  }
+  .con- {
+    width: 100%;
+  }
+  form {
+    padding: 4.1rem 1.5rem;
+  }
+
+  .journey h1 {
+    font-size: 4.5rem;
+  }
+
+  .box select {
+    margin: 1rem;
+  }
+  .blog-5 {
+    padding-right: 0;
+  }
+  .col-blog {
+    margin: 0;
+  }
+  .row-blog {
+    row-gap: 4.5rem;
+  }
+  section {
+    margin-top: 5rem;
+  }
+  footer {
+    margin-top: 5.9rem;
+  }
+  .about {
+    margin-top: 5rem;
+  }
+  .down {
+    padding-top: 10.8rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  .contact-row {
+    margin: 0;
+    justify-content: center;
+  }
+  .discover-button-wrapper {
+    margin: auto;
+  }
+  
+  nav > ul {
+    width: 50% !important;
+  }
+  .blog-{
+    justify-content: space-between;
+  }
+}
+
+/* 576-767px samll:  1rem=8px*/
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    max-width: 540rem;
+  }
+
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.67%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.32%;
+  }
+  .col-sm-5 {
+    width: 41.67%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.67%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.67%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .mision {
+    padding-left: 0;
+  }
+  .vision {
+    padding: 0;
+  }
+  .work {
+    padding-right: 0;
+  }
+  
+  .row-package {
+    justify-content: space-between;
+    row-gap: 4rem;
+    text-align: center;
+  }
+  .footer-4{
+    font-size: 2.2rem;
+    padding-top: 2rem;
+  }
+  .row-blog{
+    row-gap: 5rem;
+  }
+  .blog-5{
+    padding-right: 0;
+  }
+  .col-blog{
+    margin: 0;
+  }
+  .contact-row{
+    justify-content: center;
+  }
+  .box{
+    flex-direction: column;
+    border-radius: 0.7rem;
+  }
+  .box select {
+    margin: 1rem;
+  }
+  section {
+    margin-top: 5rem;
+  }
+  
+}
+/* 768-991px  medium:  1rem=9px*/
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+  .container {
+    max-width: 72rem;
+  }
+
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.67%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.32%;
+  }
+  .col-md-5 {
+    width: 41.67%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.67%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.67%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .vision {
+    padding: 0 0 0 3.3rem;
+  }
+  .work {
+    padding: 0 3.3rem 0 0;
+  }
+  .row-package {
+    justify-content: center;
+    row-gap: 4rem;
+  }
+  .journey h1 {
+    font-size: 7rem;
+  }
+  .box {
+    width: 60%;
+    flex-direction: row;
+    border-radius: 4rem;
+  }
+  section {
+    margin-top: 5rem;
+  }
+  .about {
+    margin-top: 5rem;
+  }
+  .down {
+    padding-top: 6rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  .row-blog {
+    margin-top: 4re;
+  }
+  .row-blog {
+    margin-top: 4rem;
+    row-gap: 4rem;
+  }
+  .blog-5 {
+    padding-right: 0;
+  }
+  .blog-p2 {
+    padding-bottom: 8.2rem;
+  }
+  .contact-row {
+    margin-top: 4rem;
+  }
+  .contact-row {
+    justify-content: center;
+  }
+}
+/* 992-1199px large: */
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 96rem;
+  }
+
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-md-2 {
+    width: 16.67%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.32%;
+  }
+  .col-lg-5 {
+    width: 41.67%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.67%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.67%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  .mision {
+    padding-left: 3.3rem;
+  }
+  .vision {
+    padding: 0 3.3rem;
+  }
+  
+  .package-2 {
+    font-size: 5rem;
+  }
+  .row-package {
+    justify-content: space-between;
+    row-gap: 4rem;
+    text-align: center;
+  }
+  .journey h1 {
+    font-size: 8rem;
+  }
+  
+  .box select,.box button ,.p1{
+    font-size: 2rem;
+  }
+  .box{
+    padding: 0.5rem 1rem 0.5rem 2.5rem;
+  }
+  .about{
+    margin-top: 8rem;
+  }
+  .about h3{
+margin: 5rem 0 3rem 0;
+  }
+  .down{
+    padding-top: 14rem;
+  }
+  section{
+    margin-top: 10rem;
+  }
+  .founder {
+    object-fit: cover;
+  }
+  .pay{
+    flex-direction: column;
+    align-items: start;
+  }
+  .contact-row{
+    justify-content: center;
+  }
+  .blog-{
+    justify-content: space-between;
+  }
+}
+/* 1200-1399px extra- large: */
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+  .container {
+    max-width: 114rem;
+  }
+
+  .col-xl-1 {
+    width: 8.33%;
+  }
+  .col-xl-2 {
+    width: 16.67%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.32%;
+  }
+  .col-xl-5 {
+    width: 41.67%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.33%;
+  }
+  .col-xl-8 {
+    width: 66.67%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.33%;
+  }
+  .col-xl-11 {
+    width: 91.67%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+  .package-2 {
+    font-size: 6rem;
+  }
+  .contact-row {
+    justify-content: space-between;
+  }
+  nav{
+    width: 100%;
+  }
+}
+/* 1400-antpx extra-exra large: 1rem=10px  */
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 62.5%;
+  }
+  .container {
+    max-width: 132rem;
+  }
+
+  .col-xxl-1 {
+    width: 8.33%;
+  }
+  .col-xxl-2 {
+    width: 16.67%;
+  }
+  .col-xxl-3 {
+    width: 25%;
+  }
+  .col-xxl-4 {
+    width: 33.32%;
+  }
+  .col-xxl-5 {
+    width: 41.67%;
+  }
+  .col-xxl-6 {
+    width: 50%;
+  }
+  .col-xxl-7 {
+    width: 58.33%;
+  }
+  .col-xxl-8 {
+    width: 66.67%;
+  }
+  .col-xxl-9 {
+    width: 75%;
+  }
+  .col-xxl-10 {
+    width: 83.33%;
+  }
+  .col-xxl-11 {
+    width: 91.67%;
+  }
+  .col-xxl-12 {
+    width: 100%;
+  }
+  .row-package{
+    text-align: left;
+  }
+}
+@media screen and (max-width: 1199px) {
+  nav > ul {
+    display: block;
+    position: fixed;
+    background-color: #069aba;
+    top: 0;
+    right: -350px;
+    height: 100%;
+    width: 30%;
+    transition: all 0.4s linear;
+  }
+
+  .menu {
+    padding-left: 42px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .sub-menu a {
+    padding-left: 50px;
+    /* color: black; */
+  }
+
+  .sub-menu {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .showHide {
+    right: 0px;
+    transition: all 0.4s linear;
+  }
+
+  .menuIcon,
+  .closeIcon {
+    display: block;
+  }
+}
